@@ -34,7 +34,7 @@ Rails.application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
-  host = 'https://nameless-wildwood-59197.herokuapp.com'
+  host = 'nameless-wildwood-59197.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   
   ActionMailer::Base.smtp_settings = {
